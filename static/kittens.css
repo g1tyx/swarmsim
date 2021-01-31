@@ -2,17 +2,17 @@
   display:none;
 }
 .page-title:after {
-  content:'Kitten Klicker';
+  content:'喵拟喵群';
 }
 .contact-title span {
   display:none;
 }
 .contact-title:after {
-  content:'Contact the Kitten Klicker Developer';
+  content:'联系喵拟喵群的开发者';
 }
 .footer:after {
   font-style:italic;
-  content:'Thanks to http://www.placekitten.com for the images!';
+  content:'感谢 http://www.placekitten.com 提供图像！';
 }
 /* https://www.reddit.com/r/swarmsim/comments/310qs2/ascending_on_april_1/ */
 /* relevant classes: .tab-label, .selected-label, .list-label, .unselectedlist-label */
@@ -20,27 +20,27 @@
   display:none;
 }
 .label-mutagen .label-suffix:before {
-  content:'mewtagen';
+  content:'喵变剂';
 }
 /* css capitalization fails for mutagen here, but not for premutagen, in chrome only. Works fine in FF, IE without this line. Browser bug? Whatever, fix it by hand. */
 .selected-label.label-mutagen .label-suffix:before {
-  content:'Mewtagen';
+  content:'喵变剂';
 }
 .label-premutagen .label-label {
   display:none;
 }
 .label-premutagen .label-suffix:before {
-  content:'mewtagen (inactive)';
+  content:'喵变剂 (未激活)';
 }
 
 .label-crystal .label-label {
   display:none;
 }
 .label-crystal .label-suffix:before {
-  content:'catnip';
+  content:'猫薄荷';
 }
 .selected-label.label-crystal .label-suffix:before {
-  content:'Catnip';
+  content:'猫薄荷';
 }
 
 .desc-icon-resource {
@@ -74,7 +74,7 @@
 .desc-meat:after {
   /* http://stackoverflow.com/questions/17047694/add-line-break-to-before-or-after-pseudo-element-content */
   white-space:pre-line;
-  content: "\AThis meat comes from mice the kittens catch. Kittens are not for eating. Please do not eat kitten meat."
+  content: "\A这些肉来自于猫猫们抓到的老鼠。猫猫那么可爱，为什么要吃猫猫？"
 }
 .icon-meat {
   background-image: url("../static/kittens/200x200-1.jpg");
