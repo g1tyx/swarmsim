@@ -1,9 +1,10 @@
 <!doctype html>
 <html ng-app="app" ng-controller="MainController" ng-click="docClick()">
 <head>
-  <script src="releasewatch/jquery.min.js"></script>
-  <script src="releasewatch/moment.min.js"></script>
-  <script src="releasewatch/angular.min.js"></script>
+  <meta charset="utf-8">
+  <script src="jquery.min.js"></script>
+  <script src="moment.min.js"></script>
+  <script src="angular.min.js"></script>
   <style>
     body {
       background: black;
@@ -15,7 +16,7 @@
   <div ng-cloak ng-if="progress()">
     <h1><a href="..">RELEASE COMPLETED</a></h1>
     <audio controls loop>
-      <source src="releasewatch/zadupd02.ogg" type="audio/ogg">
+      <source src="zadupd02.ogg" type="audio/ogg">
     </audio>
   </div>
   <div ng-cloak ng-if="!progress()">
