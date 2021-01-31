@@ -49,10 +49,6 @@ var cnItems = {
     'Click here to keep the kitten pictures.': '点击此处可以保留喵星人的图像。',
     ' To remove them later, go to the options screen and click "Clear all extra styling/graphics".': '如果您之后想要移除它们，只需进入选项界面，点击“清除所有额外的样式/图像”即可。',
     'Achievement': '获得成就',
-    'RELEASE COMPLETED': '发布完成',
-    'No release currently in progress. Refreshing in 60s.': '暂无发布中的内容。60秒后将自动刷新。',
-    'Loading...': '载入中……',
-    'Swarmsim release complete': '模拟虫群发布完成',
     //主界面等结束
 
     //原样

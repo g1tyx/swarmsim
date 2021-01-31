@@ -14,16 +14,16 @@
 </head>
 <body>
   <div ng-cloak ng-if="progress()">
-    <h1><a href="..">RELEASE COMPLETED</a></h1>
+    <h1><a href="..">发布完成</a></h1>
     <audio controls loop>
       <source src="zadupd02.ogg" type="audio/ogg">
     </audio>
   </div>
   <div ng-cloak ng-if="!progress()">
-    <p>No release currently in progress. Refreshing in 60s.</p>
+    <p>暂无发布中的内容。60秒后将自动刷新。</p>
     <p ng-if="versionData">最新的发布版本为 {{versionData.version}} ，发布于 {{versionData.updated.format()}} ，距今 {{versionData.updated.fromNow()}}。</p>
   </div>
-  <div ng-if="!progress">Loading...</div>
+  <div ng-if="!progress">载入中……</div>
 </body>
 <script>
 angular.module('app', []).controller('MainController', function($scope, $location, $timeout, $http) {
@@ -53,7 +53,7 @@ angular.module('app', []).controller('MainController', function($scope, $locatio
     }
     // https://developer.mozilla.org/en-US/docs/Web/API/notification
     function doNotify() {
-      var notification = new Notification("Swarmsim release complete", {body:document.location.hostname});
+      var notification = new Notification("模拟虫群发布完成", {body:document.location.hostname});
       notification.onclick = function() {
         window.focus();
         $('audio')[0].pause();
