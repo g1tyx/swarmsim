@@ -111,7 +111,7 @@ var cnItems = {
     'About ': '约',
     'Reduce this setting if the game is slowing down your computer. This doesn\'t affect gameplay; your units won\'t produce resources any faster or slower.': '如果此游戏使电脑的运行速度变慢了，可以减少此项的数值。调整帧数不会影响产量。',
     ' Number format': ' 数字格式',
-    'Standard decimal (': '标准十进制(',
+    'Standard decimal ': '标准十进制',
     'legend': '说明',
     'Scientific-E': '科学记数法',
     'Hybrid': '混合',
