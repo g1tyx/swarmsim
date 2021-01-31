@@ -58,6 +58,18 @@ var cnItems = {
     ' Can\'t buy ': ' 无法购买 ',
     ' will cost ': '需花费',
     ' and ': '及',
+    'Upgrades': '升级',
+    'Hide upgrade': '隐藏升级',
+    'Never notify': '永不提醒',
+    'Notify when buyable': '当可购买时提醒',
+    'Notify at 2× cost': '当2倍成本时提醒',
+    'Notify at 4× cost': '当4倍成本时提醒',
+    'This': '此',
+    'Next': '下一个',
+    ' upgrade costs  ': '升级花费',
+    'Abilities': '能力',
+    ' This ability costs ': '此能力每次使用花费',
+    ' per use. ': '。',
     //购买相关结束
 
     //PlayFab相关
