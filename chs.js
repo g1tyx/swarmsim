@@ -13,6 +13,7 @@ var cnItems = {
 
     //标点符号
     '.': '。',
+    ',': '，',
     //标点符号结束
     
     //主界面等
@@ -78,7 +79,7 @@ var cnItems = {
     //PlayFab相关结束
 
     //成就
-    ' Achievement Points': ' 成就点数',
+    ' achievement points': ' 成就点数',
     'Show ': '显示',
     'earned': '已获得',
     'unearned': '未获得',
