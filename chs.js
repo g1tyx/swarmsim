@@ -77,6 +77,21 @@ var cnItems = {
     ' Sync saved data with other devices ': ' 与其他设备同步存储数据 ',
     //PlayFab相关结束
 
+    //成就
+    ' Achievement Points': ' 成就点数',
+    'Show ': '显示',
+    'earned': '已获得',
+    'unearned': '未获得',
+    'masked': '未解锁',
+    ' achievements, sorted by ': '的成就，排序方式为',
+    'default': '默认',
+    '% complete': '完成率',
+    'highest first': '从高到低',
+    'lowest first': '从低到高',
+    'Your achievements grant a ': '您的成就使幼虫产量获得了',
+    ' bonus to larva production.': '的加成。',
+    //成就结束
+
     //原样
     '': '',
     '': '',
