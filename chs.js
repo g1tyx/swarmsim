@@ -55,6 +55,8 @@ var cnItems = {
     //购买相关
     'Can\'t buy': '无法购买',
     ' Can\'t buy ': ' 无法购买 ',
+    ' will cost ': '需花费',
+    ' and ': '及',
     //购买相关结束
 
     //成就
