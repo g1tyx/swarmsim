@@ -18,6 +18,16 @@ var cnItems = {
     
     //主界面等
     'Swarm Simulator': '模拟虫群',
+    ' More... ': '更多……',
+    ' Undo ': ' 撤销',
+    ' Options ': ' 选项',
+    ' Achievements ': ' 成就',
+    ' Statistics ': ' 数据统计',
+    ' Patch Notes ': ' 补丁更新说明',
+    ' Community ': ' 玩家社区',
+    ' Send Feedback ': ' 提交反馈',
+    ' Report Problem ': ' 报告问题',
+    ' Show all units ': ' 显示所有单位',
     'Close': '关闭',
     'Oh no! There was a problem loading your saved game. ': '载入游戏时发生错误。',
     'This is a bug.': '这可能是由于BUG引起的。',
