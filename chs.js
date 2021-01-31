@@ -47,7 +47,7 @@ var cnItems = {
     'I hope you enjoyed yesterday\'s April Fools joke!': '希望您喜欢昨天的愚人节玩笑！',
     'Click here to keep the kitten pictures.': '点击此处可以保留喵星人的图像。',
     ' To remove them later, go to the options screen and click "Clear all extra styling/graphics".': '如果您之后想要移除它们，只需进入选项界面，点击“清除所有额外的样式/图像”即可。',
-    'Achievement:': '获得成就：',
+    'Achievement': '获得成就',
     '': '',
     '': '',
     //主界面等结束
