@@ -50,6 +50,7 @@ var cnItems = {
     'Click here to keep the kitten pictures.': '点击此处可以保留喵星人的图像。',
     ' To remove them later, go to the options screen and click "Clear all extra styling/graphics".': '如果您之后想要移除它们，只需进入选项界面，点击“清除所有额外的样式/图像”即可。',
     'Achievement': '获得成就',
+    'You found the debug page! Too bad it only works in the development build.': '您发现了DEBUG界面！很遗憾它只能在开发版本中使用。',
     //主界面等结束
 
     //购买相关
@@ -84,6 +85,15 @@ var cnItems = {
     'Passwords do not match.': '密码错误。',
     ' Sync saved data with other devices ': ' 与其他设备同步存储数据 ',
     //PlayFab相关结束
+
+    //选项
+    'Standard-decimal suffixes': '十进制数字相关后缀',
+    'Based on ': '(由于技术原因，后缀无法汉化，如果看不懂的话，请换成科学计数法)基于',
+    'this list': '此清单',
+    'Value': '数值',
+    'Short suffix': '短后缀',
+    'Long suffix': '长后缀',
+    //选项结束
 
     //成就
     ' achievement points': ' 成就点数',
