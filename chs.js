@@ -18,7 +18,7 @@ var cnItems = {
     //主界面等
     'Swarm Simulator': '模拟虫群',
     'Close': '关闭',
-    'Oh no! There was a problem loading your saved game.': '载入游戏时发生错误。',
+    'Oh no! There was a problem loading your saved game. ': '载入游戏时发生错误。',
     'This is a bug.': '这可能是由于BUG引起的。',
     'Here\'s your saved game data. ': '以下是您的存档数据。',
     'Save this': '请妥善保管',
@@ -27,6 +27,7 @@ var cnItems = {
     'Please ': '请',
     'report this bug': '上报此BUG',
     '. Thanks!': '。感谢您！',
+    'Oh no! There was a problem loading your saved game.': '载入游戏时发生错误。',
     'Please make sure ': '请确保',
     ' has permission to set cookies/localstorage in your browser.': '可以在浏览器中存储cookies或localstorage。',
     'This problem usually happens when your browser is ': '这通常是由于您的浏览器',
