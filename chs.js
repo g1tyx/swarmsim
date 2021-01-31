@@ -51,6 +51,10 @@ var cnItems = {
     ' To remove them later, go to the options screen and click "Clear all extra styling/graphics".': '如果您之后想要移除它们，只需进入选项界面，点击“清除所有额外的样式/图像”即可。',
     'Achievement': '获得成就',
     'You found the debug page! Too bad it only works in the development build.': '您发现了DEBUG界面！很遗憾它只能在开发版本中使用。',
+    'We\'re moving to ': '英文原版最新地址为',
+    '. If your saved game wasn\'t copied, this page will help.': '。如果您的存档未被复制过来，可以使用此页面来完成。',
+    'Copy your saved game to www.swarmsim.com': '将旧存档复制到www.swarmsim.com(与汉化版无关)',
+    'Or, export your saved game data below': '或者您也可以复制下方的存档数据',
     //主界面等结束
 
     //购买相关
@@ -66,7 +70,7 @@ var cnItems = {
     'Notify at 4× cost': '当4倍成本时提醒',
     'This': '此',
     'Next': '下一个',
-    ' upgrade costs  ': '升级花费',
+    ' upgrade costs ': '升级花费',
     'Abilities': '能力',
     ' This ability costs ': '此能力每次使用花费',
     ' per use. ': '。',
@@ -225,6 +229,7 @@ var cnExcludeWhole = [
     /^(.*)\{(.+)\}(.*)$/, //不抓取内容
     /^(.*)的(.*)$/, //不抓取的内容
     /^最大(.*)$/, //不抓取的内容
+    /^\s?您(.*)$/, //不抓取的内容
 ];
 var cnExcludePostfix = [
     /:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
