@@ -21,7 +21,7 @@
   </div>
   <div ng-cloak ng-if="!progress()">
     <p>No release currently in progress. Refreshing in 60s.</p>
-    <p ng-if="versionData">Last release was {{versionData.version}} at {{versionData.updated.format()}}, {{versionData.updated.fromNow()}}.</p>
+    <p ng-if="versionData">最新的发布版本为 {{versionData.version}} ，发布于 {{versionData.updated.format()}} ，距今 {{versionData.updated.fromNow()}}。</p>
   </div>
   <div ng-if="!progress">Loading...</div>
 </body>
