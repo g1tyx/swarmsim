@@ -113,7 +113,7 @@ var cnItems = {
     'Swarm Simulator subreddit': 'Reddit的模拟虫群子版块',
     ' is the best way to reach the developer! I read everything written there, even if I don\'t always reply.': '是联系开发者最好的途径！我会阅读所有的帖子，但不一定会回复。',
     'Did you play on the old website, swarmsim.github.io, and you\'re looking for your saved progress?': '您是否在旧网站swarmsim.github.io下玩过游戏，并想把存档转移过来？',
-    'Did you lose your saved progress some other way?': '您是否因某些原因丢失了存档？',
+    'Did you lose your saved progress some other way?': '您是否由于某些原因而丢失了存档？',
     'Email the developer?': '需要向作者发送电子邮件吗？',
     'Please email me if you\'re having trouble with a crystal purchase, or if you\'re reporting an exploitable bug.': '如果您无法完成水晶购买，或者是发现了可能被恶意利用的BUG，请通过电子邮件联系我。',
     'For most other topics, ': '对于其他的情况，',
