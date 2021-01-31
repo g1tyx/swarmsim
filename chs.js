@@ -218,6 +218,7 @@ var cnItems = {
     'Patch Notes': '补丁更新说明',
     'Swarm Simulator is open source. See the ': '模拟虫群属于开源软件，查阅',
     'source code repository': '源代码仓库',
+    'Added keyboard shortcuts throughout the game. Press \'?\' for a list of shortcuts.': '在游戏中添加了快捷键。按?键就可以查看快捷键清单了。',
     //更新日志结束
 
     //联系作者
