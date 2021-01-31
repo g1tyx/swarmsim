@@ -30,7 +30,7 @@ var cnItems = {
     '. Thanks!': '。感谢您！',
     'Oh no! There was a problem loading your saved game.': '载入游戏时发生错误。',
     'Please make sure ': '请确保',
-    ' has permission to set cookies/localstorage in your browser.': '可以在浏览器中存储cookies或localstorage。',
+    ' has permission to set cookies/localstorage in your browser.': '可以在浏览器中存储cookies或本地存储。',
     'This problem usually happens when your browser is ': '这通常是由于您的浏览器',
     'blocking third-party cookies': '阻止了第三方cookies',
     '. Swarm Simulator needs this storage to save your game. It\'s not doing anything evil, I promise.': '。模拟虫群需要获得许可才可以进行存储，它并不作其他用途。',
@@ -103,12 +103,72 @@ var cnItems = {
     //PlayFab相关结束
 
     //选项
+    'Options': '选项',
+    ' Show advanced unit data ': ' 显示高级单位数据',
+    'Show more detailed numbers for each of your units, and allow customizing when each upgrade notifier appears.': '显示每个单位更详细的数据，并且可以自定义每个升级提醒的出现方式。',
+    ' Maximum frames per second': ' 每秒最大帧数',
+    ' Automatic': ' 自动调整',
+    'About ': '约',
+    'Reduce this setting if the game is slowing down your computer. This doesn\'t affect gameplay; your units won\'t produce resources any faster or slower.': '如果此游戏使电脑的运行速度变慢了，可以减少此项的数值。调整帧数不会影响产量。',
+    ' Number format': ' 数字格式',
+    'Standard decimal (': '标准十进制(',
+    'legend': '说明',
+    'Scientific-E': '科学记数法',
+    'Hybrid': '混合',
+    'Engineering': '工程记数法',
     'Standard-decimal suffixes': '十进制数字相关后缀',
     'Based on ': '(由于技术原因，后缀无法汉化，如果看不懂的话，请换成科学计数法)基于',
     'this list': '此清单',
     'Value': '数值',
     'Short suffix': '短后缀',
     'Long suffix': '长后缀',
+    ' Velocity format': ' 速度格式',
+    ' Duration format': ' 时间格式',
+    'Exact': '精确',
+    'Approximate': '近似',
+    ' Theme ': ' 主题样式 ',
+    'Default white': '默认白色',
+    'cerulean': '深蓝',
+    'cosmo': '宇宙',
+    'cyborg': '半机械',
+    'darkly': '黑暗',
+    'flatly': '平淡',
+    'journal': '日报',
+    'lumen': '流明',
+    'paper': '纸张',
+    'readable': '易读',
+    'sandstone': '砂石',
+    'simplex': '极简',
+    'slate': '石板',
+    'spacelab': '太空实验室',
+    'superhero': '超级英雄',
+    'united': '联合',
+    'yeti': '雪人',
+    'Custom style': '自定义样式',
+    'Additional styling (advanced': '额外样式(高级设置',
+    'Current theme': '目前主题样式',
+    'CSS file URL: (': 'CSS文件地址：(',
+    'Reset': '重置',
+    'Theme set.': '主题样式已重置。',
+    'Set theme': '设置主题样式',
+    'Clear all extra styling/graphics': '清除所有额外的样式/图像',
+    ' to save space.': '以节省空间。',
+    'Apply': '应用',
+    ' Import/export saved data': ' 导入/导出存储数据',
+    'To export, click the text above and ': '想要导出的话，请点击上方的文本并进行',
+    'copy': '复制',
+    ' (ctrl-c). To import, click the text and paste (ctrl-v) your exported data.': '(ctrl-c)。想要导入的话，请点击上方的文本并将您的存储数据粘贴进去(ctrl-v)。',
+    'It\'s normal for imported saves to have more units than you exported with. Your swarm continues its work even after saved data is exported/before it\'s imported.': '一般来说，导入以后都会比导入时拥有更多的单位。因为您的虫群在此期间仍然在辛勤工作着。',
+    ' Where is Swarm Simulator\'s data saved? ': '模拟虫群的数据保存在哪里？',
+    'Swarm Simulator saves your progress in your browser\'s localstorage, cookies, and Flash (SWF) storage. Your saved game will be loaded if it\'s found in any one of these sources. This is done to avoid accidentally losing your saved data; it\'s not intended to track you or otherwise invade your privacy. The \'wipe all saved data\' button below will clear all three storage locations.': '模拟虫群在本地存储，cookies和Flash (SWF) 存储上存储数据。只要在任何一处找到了存储数据，就可以载入存档。这么做是为了防止丢失数据，并非是为了侵犯隐私之类的。下方的“清除所有存储数据”按钮将清除这三个地方的所有相关数据。',
+    ' storage': '存储',
+    'local': '本地',
+    'empty': '空',
+    ' Wipe all saved data and start over ': '清除所有存储数据并重新开始',
+    ' Analytics': ' 分析',
+    'Swarm Simulator, like many websites, uses Google Analytics to track actions you take while playing. We use this data to improve the game. Feel free to ': '模拟虫群跟很多其他网站一样，使用了谷歌分析来收集游戏行为数据。我们将使用这些数据来改善游戏。您当然也可以自行',
+    'opt out of Google Analytics': '停用谷歌分析',
+    'How Google uses data when you use our partners\' sites or apps': '谷歌将如何使用相关数据',
     //选项结束
 
     //成就
@@ -229,7 +289,15 @@ var cnExcludeWhole = [
     /^(.*)\{(.+)\}(.*)$/, //不抓取内容
     /^(.*)的(.*)$/, //不抓取的内容
     /^最大(.*)$/, //不抓取的内容
+    /^最多(.*)$/, //不抓取的内容
     /^\s?您(.*)$/, //不抓取的内容
+    /^(.*)秒\s?$/, //不抓取的内容
+    /^(.*)分\s?$/, //不抓取的内容
+    /^(.*)时\s?$/, //不抓取的内容
+    /^(.*)日\s?$/, //不抓取的内容
+    /^(.*)跃迁\s?$/, //不抓取的内容
+    /^(.*)加成$/, //不抓取的内容
+    /^(.*)倍率$/, //不抓取的内容
 ];
 var cnExcludePostfix = [
     /:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
