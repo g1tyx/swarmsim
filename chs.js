@@ -166,7 +166,7 @@ var cnItems = {
     'empty': '空',
     ' Wipe all saved data and start over ': '清除所有存储数据并重新开始',
     ' Analytics': ' 分析',
-    'Swarm Simulator, like many websites, uses Google Analytics to track actions you take while playing. We use this data to improve the game. Feel free to ': '模拟虫群跟很多其他网站一样，使用了谷歌分析来收集游戏行为数据。我们将使用这些数据来改善游戏。您当然也可以自行',
+    'Swarm Simulator, like many websites, uses Google Analytics to track actions you take while playing. We use this data to improve the game. Feel free to ': '模拟虫群跟很多其他网站一样，使用了谷歌分析来收集游戏行为数据。我们将使用这些数据来改进游戏。您当然也可以自行',
     'opt out of Google Analytics': '停用谷歌分析',
     'How Google uses data when you use our partners\' sites or apps': '谷歌将如何使用相关数据',
     //选项结束
@@ -185,6 +185,23 @@ var cnItems = {
     'Your achievements grant a ': '您的成就使幼虫产量获得了',
     ' bonus to larva production.': '的加成。',
     //成就结束
+
+    //数据统计
+    'Statistics': '数据统计',
+    'unit': '单位',
+    'first bought': '首次购买时间',
+    'clicks': '点击次数',
+    'bought manually': '手动购买数量',
+    'twins': '双重倍率后数量',
+    ' No units purchased. ': '未购买任何单位。',
+    'upgrade': '升级',
+    'total bought': '总购买数量',
+    ' No upgrades purchased. ': '未购买任何升级。',
+    'save file size': '存储文件大小',
+    'start date': '起始日期',
+    'last ascended': '最近一次飞升日期',
+    'never': '未曾',
+    //数据统计结束
 
     //更新日志
     'Patch Notes': '补丁更新说明',
