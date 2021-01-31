@@ -106,6 +106,21 @@ var cnItems = {
     'source code repository': '源代码仓库',
     //更新日志结束
 
+    //联系作者
+    'Contact the Swarm Simulator developer': '联系模拟虫群的开发者',
+    'Posting': '发帖',
+    ' on the ': '于',
+    'Swarm Simulator subreddit': 'Reddit的模拟虫群子版块',
+    ' is the best way to reach the developer! I read everything written there, even if I don\'t always reply.': '是联系开发者最好的途径！我会阅读所有的帖子，但不一定会回复。',
+    'Did you play on the old website, swarmsim.github.io, and you\'re looking for your saved progress?': '您是否在旧网站swarmsim.github.io下玩过游戏，并想把存档转移过来？',
+    'Did you lose your saved progress some other way?': '您是否因某些原因丢失了存档？',
+    'Email the developer?': '需要向作者发送电子邮件吗？',
+    'Please email me if you\'re having trouble with a crystal purchase, or if you\'re reporting an exploitable bug.': '如果您无法完成水晶购买，或者是发现了可能被恶意利用的BUG，请通过电子邮件联系我。',
+    'For most other topics, ': '对于其他的情况，',
+    'I probably won\'t reply. Please post on Reddit instead.': '我可能不会回复，请在Reddit上发帖。',
+    'Swarm Simulator is run in one human\'s free time. I love you and your feedback, I really do - but email is stressful, and takes more of my limited time than you think. The Reddit community really is very helpful!': '模拟虫群只是我利用业余时间完成的作品。我当然希望获得您的反馈，真的——但电子邮件会让人紧张，会花掉我更多的时间。Reddit社区真的帮了我很多！',
+    //联系作者结束
+
     //原样
     '': '',
     '': '',
@@ -186,6 +201,8 @@ var cnExcludeWhole = [
     /^QQ群号$/, //不抓取的内容
     /^帮助(.*)$/, //不抓取的内容
     /^(.*)\{(.+)\}(.*)$/, //不抓取内容
+    /^(.*)的(.*)$/, //不抓取的内容
+    /^最大(.*)$/, //不抓取的内容
 ];
 var cnExcludePostfix = [
     /:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
