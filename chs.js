@@ -51,6 +51,17 @@ var cnItems = {
     'Achievement': '获得成就',
     //主界面等结束
 
+    //喵喵喵
+    'Kitten Klicker': '喵拟喵群',
+    'Contact the Kitten Klicker Developer': '联系喵拟喵群的开发者',
+    'mewtagen': '喵变剂',
+    'Mewtagen': '喵变剂',
+    'mewtagen (inactive': '喵变剂(未激活',
+    'catnip': '猫薄荷',
+    'Catnip': '猫薄荷',
+    'This meat comes from mice the kittens catch. Kittens are not for eating. Please do not eat kitten meat.': '这些肉来自于猫猫们抓到的老鼠。猫猫那么可爱，为什么要吃猫猫？',
+    //喵喵喵
+
     //原样
     '': '',
     '': '',
