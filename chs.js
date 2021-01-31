@@ -51,16 +51,31 @@ var cnItems = {
     'Achievement': '获得成就',
     //主界面等结束
 
-    //喵喵喵
-    'Kitten Klicker': '喵拟喵群',
-    'Contact the Kitten Klicker Developer': '联系喵拟喵群的开发者',
-    'mewtagen': '喵变剂',
-    'Mewtagen': '喵变剂',
-    'mewtagen (inactive': '喵变剂(未激活',
-    'catnip': '猫薄荷',
-    'Catnip': '猫薄荷',
-    'This meat comes from mice the kittens catch. Kittens are not for eating. Please do not eat kitten meat.': '这些肉来自于猫猫们抓到的老鼠。猫猫那么可爱，为什么要吃猫猫？',
-    //喵喵喵
+    //PlayFab相关
+    'Log in': '登录',
+    'Sign up': '注册',
+    'Forgot password': '忘记密码',
+    'Email': '电子邮箱地址',
+    'Recovery email sent.': '已发送找回密码的邮件。',
+    'Send recovery email': '发送邮件找回密码',
+    'Password': '密码',
+    'Remember me': '记住登录信息',
+    'Forgot your password?': '忘记了密码吗？',
+    'Logout': '注销',
+    'Auto-export every 15 minutes and before closing': '在游戏运行时，每15分钟自动导出至在线存储',
+    'Export online saved data': '导出存档至在线存储',
+    'Check for new online saved data': '检查新的在线存储数据',
+    'No online saved data yet.': '暂无在线存储数据。',
+    'Import online saved data (replaces your current game': '从在线存储数据中导入存档(将覆盖现有存档',
+    'Delete online saved data': '删除在线存储数据',
+    'Will not auto-export online': '无法自动导出至在线存储',
+    ' because nothing\'s changed since the last export': '，因为数据与上次导出存档没有任何区别',
+    ' because this is a new game': '，因为您才刚开始游戏',
+    ' because the online save is newer than the one you\'re playing': '因为在线存储的数据比您目前游玩的存档数据要更加新',
+    'We\'ll only send you account recovery/lost password emails.': '我们只会向您发送找回密码的邮件。',
+    'Passwords do not match.': '密码错误。',
+    ' Sync saved data with other devices ': ' 与其他设备同步存储数据 ',
+    //PlayFab相关结束
 
     //原样
     '': '',
