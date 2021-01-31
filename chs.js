@@ -59,21 +59,6 @@ var cnItems = {
     ' and ': '及',
     //购买相关结束
 
-    //成就
-    ' achievement points': ' 成就点数',
-    'Show ': '显示',
-    'earned': '已获得',
-    'unearned': '未获得',
-    'masked': '未解锁',
-    ' achievements, sorted by ': '的成就，排序方式为',
-    'default': '默认',
-    '% complete': '完成率',
-    'highest first': '从高到低',
-    'lowest first': '从低到高',
-    'Your achievements grant a ': '您的成就使幼虫产量获得了',
-    ' bonus to larva production.': '的加成。',
-    //成就结束
-
     //PlayFab相关
     'Log in': '登录',
     'Sign up': '注册',
@@ -99,6 +84,27 @@ var cnItems = {
     'Passwords do not match.': '密码错误。',
     ' Sync saved data with other devices ': ' 与其他设备同步存储数据 ',
     //PlayFab相关结束
+
+    //成就
+    ' achievement points': ' 成就点数',
+    'Show ': '显示',
+    'earned': '已获得',
+    'unearned': '未获得',
+    'masked': '未解锁',
+    ' achievements, sorted by ': '的成就，排序方式为',
+    'default': '默认',
+    '% complete': '完成率',
+    'highest first': '从高到低',
+    'lowest first': '从低到高',
+    'Your achievements grant a ': '您的成就使幼虫产量获得了',
+    ' bonus to larva production.': '的加成。',
+    //成就结束
+
+    //更新日志
+    'Patch Notes': '补丁更新说明',
+    'Swarm Simulator is open source. See the ': '模拟虫群属于开源软件，查阅',
+    'source code repository': '源代码仓库',
+    //更新日志结束
 
     //原样
     '': '',
