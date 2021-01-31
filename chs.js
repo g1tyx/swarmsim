@@ -136,6 +136,7 @@ var cnItems = {
     ' Duration format': ' 时间格式',
     'Exact': '精确',
     'Approximate': '近似',
+    'Examples': '例如',
     ' Theme ': ' 主题样式 ',
     'Default white': '默认白色',
     'cerulean': '深蓝',
