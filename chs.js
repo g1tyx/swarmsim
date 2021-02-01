@@ -352,13 +352,13 @@ var cnItems = {
     'Build 5 nexus': '建造5个枢纽',
     'power overwhelming': '势不可挡',
     'Find the Patch Notes': '发现补丁更新说明',
-    'patchy knowledge': '帕秋莉·诺蕾姬(谐音梗www)',
+    'patchy knowledge': '帕秋莉·诺蕾姬(谐音梗',
     'Don\'t take any books, please.': 'X理沙不要再来偷书了。',
     'Import your saved game': '导入存储数据',
     'portable swarm': '掌上虫群',
     'Click this achievement\'s slot': '点击此成就的方框',
     'since you asked nicely': '既然你诚心诚意的发问了',
-    'Enter the Konami Code': '输入Konami秘籍(上上下下左右左有BABA)',
+    'Enter the Konami Code': '输入Konami秘籍(上上下下左右左右BABA)',
     'l33t h4x': '黑客？',
     'Find the debug page': '发现DEBUG页面',
     'even de bugs have bugs': '即使是那里也有BUG',
@@ -476,27 +476,8 @@ var cnExcludeWhole = [
     /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
     /^\s*$/, //纯空格
     /^\s\d+(e\.\,\d+)?[A-Za-z]{0,4}(.*)$/, //处理数字及单位
-    /^打开微信扫一扫$/, //不抓取的内容
-    /^点击加群$/, //不抓取的内容
-    /^更多同类游戏$/, //不抓取的内容
-    /^关注公众号$/, //不抓取的内容
-    /^旧版$/, //不抓取的内容
-    /^论坛$/, //不抓取的内容
-    /^Git游戏$/, //不抓取的内容
-    /^QQ群号$/, //不抓取的内容
-    /^帮助(.*)$/, //不抓取的内容
+    /^[\u4E00-\u9FFF]+$/, //不抓取的内容
     /^(.*)\{(.+)\}(.*)$/, //不抓取内容
-    /^(.*)的(.*)$/, //不抓取的内容
-    /^最大(.*)$/, //不抓取的内容
-    /^最多(.*)$/, //不抓取的内容
-    /^\s?您(.*)$/, //不抓取的内容
-    /^(.*)秒\s?$/, //不抓取的内容
-    /^(.*)分\s?$/, //不抓取的内容
-    /^(.*)时\s?$/, //不抓取的内容
-    /^(.*)日\s?$/, //不抓取的内容
-    /^(.*)跃迁\s?$/, //不抓取的内容
-    /^(.*)加成$/, //不抓取的内容
-    /^(.*)倍率$/, //不抓取的内容
 ];
 var cnExcludePostfix = [
     /:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
