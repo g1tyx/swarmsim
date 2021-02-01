@@ -82,6 +82,8 @@ var cnItems = {
     'The children of your swarm. These young creatures morph into other adult units.': '虫群的幼生体。它们可以进化成其他的成熟单位。',
     'Drones are the lowest class of worker in your swarm. They continuously gather meat to feed your swarm.': '工蜂是虫群最基础的工人单位。它们持续收集肉以维持虫群的温饱。',
     'Queens rule over your swarm\'s workers.': '虫后管理着虫群的工人。',
+    'Nests provide space and support for your swarm\'s queens.': '虫巢为虫后提供空间和支持。',
+    'Your first nest will take a long time to regenerate the queens sacrificed to build it. Consider hatching more queens first.': '首次建造虫巢后需要很长的时候才能补回花费的虫后。请先考虑孵化更多的虫后吧。',
     //单位相关结束
 
     //购买相关
@@ -359,7 +361,6 @@ var cnItems = {
     'Click this achievement\'s slot': '点击此成就的方框',
     'since you asked nicely': '既然你诚心诚意的发问了',
     'Enter the Konami Code': '输入Konami秘籍(上上下下左右左右BABA)',
-    'l33t h4x': '黑客？',
     'Find the debug page': '发现DEBUG页面',
     'even de bugs have bugs': '即使是那里也有BUG',
     'Ask the right question': '问了正确的问题',
