@@ -32,7 +32,7 @@ var cnItems = {
     'Open the larva tab': '打开幼虫面板',
     'Open the territory tab': '打开领土面板',
     'Open the energy tab': '打开能量面板',
-    'Open the mutagen tab': '打开诱变剂面板',
+    'Open the mutagen tab': '打开突变原面板',
     'Open the all-units tab': '打开所有单位面板',
     'Open the options screen': '打开选项界面',
     'Open the achievements screen': '打开成就界面',
@@ -78,8 +78,10 @@ var cnItems = {
     //主界面等结束
 
     //单位相关
-    'meat': '肉',
     'Meat is delicious. All of your swarm\'s creatures eat meat.': '肉相当美味可口。虫群中的所有生物都吃肉。',
+    'The children of your swarm. These young creatures morph into other adult units.': '虫群的幼生体。它们可以进化成其他的成熟单位。',
+    'Drones are the lowest class of worker in your swarm. They continuously gather meat to feed your swarm.': '工蜂是虫群最基础的工人单位。它们持续收集肉以维持虫群的温饱。',
+    'Queens rule over your swarm\'s workers.': '虫后管理着虫群的工人。',
     //单位相关结束
 
     //购买相关

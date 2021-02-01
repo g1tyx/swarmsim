@@ -20,17 +20,17 @@
   display:none;
 }
 .label-mutagen .label-suffix:before {
-  content:'喵变剂';
+  content:'喵变原';
 }
 /* css capitalization fails for mutagen here, but not for premutagen, in chrome only. Works fine in FF, IE without this line. Browser bug? Whatever, fix it by hand. */
 .selected-label.label-mutagen .label-suffix:before {
-  content:'喵变剂';
+  content:'喵变原';
 }
 .label-premutagen .label-label {
   display:none;
 }
 .label-premutagen .label-suffix:before {
-  content:'喵变剂 (未激活)';
+  content:'喵变原(未激活)';
 }
 
 .label-crystal .label-label {
