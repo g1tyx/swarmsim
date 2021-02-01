@@ -78,6 +78,7 @@ var cnItems = {
     //主界面等结束
 
     //单位相关
+    'meat': '肉',
     'Meat is delicious. All of your swarm\'s creatures eat meat.': '肉相当美味可口。虫群中的所有生物都吃肉。',
     //单位相关结束
 
