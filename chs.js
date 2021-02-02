@@ -65,6 +65,7 @@ var cnItems = {
     'Welcome to Swarm Simulator. Starting with just a few larvae and a small pile of meat, grow a massive swarm of giant bugs.': '欢迎来到模拟虫群。开局只有几只幼虫和一小堆肉，带领它们一步步走向伟大的虫群吧。',
     'Your brood starts its life with a small pile of meat and a single larva-producing hatchery. Larvae mutate into other units. Begin your growth by using your meat and larvae to hatch some ': '您的种族开局只有一小堆肉和一个产生幼虫的孵化场。幼虫可以突变为其他单位。请先使用肉和幼虫来孵化一些',
     'drones': '工蜂',
+    'You lead a small brood of worker drones. Drones gather meat. Use this meat to build more drones and expand your brood.': '您领导着一小群工蜂。工蜂可以收集肉。使用它们收集到的肉来孵化更多工蜂，壮大您的种群。',
     'Exciting changes are coming to Swarm Simulator soon!': '模拟虫群喜迎新变化！',
     'Insects are too icky, so we\'re changing our name. Also, we\'ll require graphics to play.': '虫子们太不招人喜欢，所以我们准备把名字全给换了。另外，我们也希望这个游戏有图像。',
     'Try out the upcoming changes now!': '现在就尝试一下新的变化吧！',
