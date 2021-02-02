@@ -74,6 +74,7 @@ var cnItems = {
     'You lead a small brood of worker drones. They long for a ': '您领导着一小群工蜂。它们渴望拥有一位',
     'queen': '虫后',
     '. You must sacrifice many drones to hatch a queen, but once born, your queen will slowly hatch drones without consuming meat or larvae.': '。您必须牺牲许多工蜂才能孵化一位虫后，虫后可以缓慢地孵化工蜂，并且不需要消耗肉或者幼虫。',
+    'Hatch more queens to grow your swarm. Hatching drones with the "Twin Drones" upgrade will allow you to rapidly raise more queens.': '孵化更多的虫后来壮大您的虫群。进行“双重工蜂”升级后，孵化工蜂将更有效率，使您可以更快地孵化虫后。',
     'Exciting changes are coming to Swarm Simulator soon!': '模拟虫群喜迎新变化！',
     'Insects are too icky, so we\'re changing our name. Also, we\'ll require graphics to play.': '虫子们太不招人喜欢，所以我们准备把名字全给换了。另外，我们也希望这个游戏有图像。',
     'Try out the upcoming changes now!': '现在就尝试一下新的变化吧！',
