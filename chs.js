@@ -203,6 +203,10 @@ var cnItems = {
     'Clone Larvae clones cocoons as if they were normal larvae. Cocoon your larvae intended for cloning to avoid accidentally spending them.': '克隆幼虫时可以连着虫茧中的幼虫一起克隆。因此，您可以将想要克隆的幼虫结茧，以避免意外将它们花费在其他地方。',
     'Hide chart': '隐藏图表',
     'Bats empower all of your swarm\'s energy-based abilities.': '蝙蝠可以强化虫群所有能量相关的能力。',
+    'Energy frozen into a solid form. Crystals can be thawed and used as energy at any time. Unlike energy, crystals have no maximum, and are kept when ascending.': '它是能量固化的产物。水晶可以随时融化用作能量。与能量不同的是，水晶没有上限，飞升时也仍然保留。',
+    'Swarm Simulator\'s developer appreciates your support - thank you!': '模拟虫群的开发者感谢您的支持————谢谢您！',
+    'Energy is consumed to use special abilities.': '使用特殊能力需要消耗能量。',
+    'Need more energy?': '需要更多能量吗？',
     ' Please log in to buy crystals: More... > Options ': '请登录后再购买水晶：更多……>选项',
     //单位相关结束
 
