@@ -198,7 +198,11 @@ var cnItems = {
     'Build your fourth nexus, generating even more energy and unlocking some of the most advanced spells available to your swarm.': '建造第四个枢纽，它可以产生更多能量，并解锁最高级的法术。',
     'Build your fifth and final nexus. All spells and abilities are unlocked. Your spellcasters cannot channel energy from more than five nexus; this is the limit of their power.': '建造第五个，也是最后一个枢纽。所有的法术和特殊能力都解锁了。您的施法者们无法再从更多的枢纽中获取能量，这超过了他们的能力范围。',
     ' achievement points ': '成就点数',
+    'achievement points': '成就点数',
+    'Each cocoon is a larva encased within a protective shell. Larvae can freely enter and leave their cocoons, but cannot be transformed into other units while cocooned.': '每个虫茧中都有一只幼虫。幼虫可以随时结茧和破茧，结茧时无法转化成其他单位。',
+    'Clone Larvae clones cocoons as if they were normal larvae. Cocoon your larvae intended for cloning to avoid accidentally spending them.': '克隆幼虫时可以连着虫茧中的幼虫一起克隆。因此，您可以将想要克隆的幼虫结茧，以避免意外将它们花费在其他地方。',
     'Hide chart': '隐藏图表',
+    'Bats empower all of your swarm\'s energy-based abilities.': '蝙蝠可以强化虫群所有能量相关的能力。',
     ' Please log in to buy crystals: More... > Options ': '请登录后再购买水晶：更多……>选项',
     //单位相关结束
 
