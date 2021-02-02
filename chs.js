@@ -609,5 +609,5 @@ var cnRegReplace = new Map([
     [/^Hatch (.+) wasps$/, '孵化$1单位黄蜂'],
     [/^Hatch (.+) devourers$/, '孵化$1单位吞噬者'],
     [/^Hatch (.+) goons$/, '孵化$1单位暴徒'],
-    [/^Buy (.+) crystals for (.+)$/, '购买$1水晶，需花费$2'],
+    [/^ Buy (.+) crystals for (.+)$/, '购买$1水晶，需花费$2'],
 ]);
