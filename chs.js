@@ -197,6 +197,8 @@ var cnItems = {
     'Build your third nexus, generating even more energy and unlocking more advanced spells.': '建造第三个枢纽，它可以产生更多能量，并解锁更高级的法术。',
     'Build your fourth nexus, generating even more energy and unlocking some of the most advanced spells available to your swarm.': '建造第四个枢纽，它可以产生更多能量，并解锁最高级的法术。',
     'Build your fifth and final nexus. All spells and abilities are unlocked. Your spellcasters cannot channel energy from more than five nexus; this is the limit of their power.': '建造第五个，也是最后一个枢纽。所有的法术和特殊能力都解锁了。您的施法者们无法再从更多的枢纽中获取能量，这超过了他们的能力范围。',
+    'Hide chart': '隐藏图表',
+    ' Please log in to buy crystals: More... > Options ': '请登录后再购买水晶：更多……>选项',
     //单位相关结束
 
     //购买相关
