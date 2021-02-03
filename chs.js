@@ -28,6 +28,8 @@ var cnItems = {
     ' Send Feedback ': ' 提交反馈',
     ' Report Problem ': ' 报告问题',
     ' Show all units ': ' 显示所有单位',
+    'Keyboard Shortcuts': '键盘快捷键',
+    'Show / hide this help menu': '显示/隐藏此帮助菜单',
     'Open the meat tab': '打开肉面板',
     'Open the larva tab': '打开幼虫面板',
     'Open the territory tab': '打开领土面板',
@@ -638,6 +640,7 @@ var cnExcludeWhole = [
     /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
     /^\s*$/, //纯空格
     /^\s\d+(e\.\,\d+)?[A-Za-z]{0,4}(.*)$/, //处理数字及单位
+    /^\d+(e\.\,\d+)+$/, //处理数字及单位
     /^(.*)[\u4E00-\u9FFF]+(.*)$/, //不抓取内容
     /^(.*)\{(.+)\}(.*)$/, //不抓取内容
 ];
