@@ -43,6 +43,7 @@ var cnItems = {
     'Undo the last action': '撤销最近的操作',
     'Buy all available upgrades': '购买所有的升级',
     'Buy cheapest available upgrades': '购买便宜的升级',
+    'Focus buy-unit input field': '切换到购买单位输入框',
     'Close': '关闭',
     'Oh no! There was a problem loading your saved game. ': '载入游戏时发生错误。',
     'This is a bug.': '这可能是由于BUG引起的。',
